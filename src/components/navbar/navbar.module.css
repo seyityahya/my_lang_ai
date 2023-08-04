@@ -1,0 +1,37 @@
+.container {
+  position: sticky;
+  z-index: 999;
+  height: 60px;
+  width: 100%;
+  background-color: #410fa3;
+  box-shadow: 2px 5px 27px -8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+}
+
+.wrapper {
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.left {
+  font-size: 36px;
+  color: #fff;
+}
+
+.middle {
+  display: flex;
+  gap: 40px;
+}
+
+.icon {
+  font-size: 28px;
+  color: #fff;
+}

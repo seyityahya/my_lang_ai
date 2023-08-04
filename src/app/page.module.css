@@ -20,7 +20,7 @@
 }
 
 .content {
-  animation: fadeInContent 0.5s forwards;
+  animation: fadeInContent 0.3s forwards;
 }
 
 @keyframes fadeOutContent {

@@ -3,6 +3,8 @@ import Image from "next/image";
 import { useState, useEffect } from "react";
 import styles from "./page.module.css";
 import splash from "../../public/splash.png";
+import Navbar from "@/components/navbar/Navbar";
+import HomePage from "./homePage/page";
 
 export default function Home() {
   const [isLoading, setIsLoading] = useState(true);
@@ -22,7 +24,8 @@ export default function Home() {
         </div>
       ) : (
         <div className={styles.content}>
-          <h1>Welcome to My App</h1>
+          <Navbar />
+          <HomePage />
         </div>
       )}
     </div>
