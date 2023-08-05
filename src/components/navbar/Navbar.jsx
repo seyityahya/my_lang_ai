@@ -18,16 +18,17 @@ const Navbar = () => {
             </Link>
           </h2>
           <div className={styles.middle}>
-            <Link href="/">
+            <Link className={styles.link} href="/">
               <AiFillHome className={styles.icon} />
+              <h3>Home</h3>
             </Link>
-            <Link href="/kitaplar">
+            <Link className={styles.link} href="/kitaplar">
               <GoTasklist className={styles.icon} />
             </Link>
-            <Link href="/rastgele">
+            <Link className={styles.link} href="/rastgele">
               <IoIosStats className={styles.icon} />
             </Link>
-            <Link href="/rastgele">
+            <Link className={styles.link} href="/rastgele">
               <BsFillPersonFill className={styles.icon} />
             </Link>
           </div>
