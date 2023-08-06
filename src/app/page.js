@@ -7,27 +7,27 @@ import Navbar from "@/components/navbar/Navbar";
 import HomePage from "./homePage/page";
 
 export default function Home() {
-  const [isLoading, setIsLoading] = useState(true);
+  // const [isLoading, setIsLoading] = useState(true);
 
-  useEffect(() => {
-    setTimeout(() => {
-      setIsLoading(false);
-    }, 2000);
-  }, []);
+  // useEffect(() => {
+  //   setTimeout(() => {
+  //     setIsLoading(false);
+  //   }, 2000);
+  // }, []);
 
   return (
     <div className={styles.container}>
-      {isLoading ? (
+      {/* {isLoading ? (
         <div className={styles.splash}>
           <Image src={splash} alt="splash" />
           <h1>Language App</h1>
         </div>
       ) : (
-        <div className={styles.content}>
-          <Navbar />
-          <HomePage />
-        </div>
-      )}
+        
+      )} */}
+      <div className={styles.content}>
+        <HomePage />
+      </div>
     </div>
   );
 }
