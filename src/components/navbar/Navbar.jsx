@@ -58,7 +58,7 @@ const Navbar = () => {
               className={`${styles.link} ${
                 activeButton === "profile" ? styles.active : ""
               }`}
-              href="/profile"
+              href="/productedRoute"
               onClick={() => handleButtonClick("profile")}
             >
               <BsFillPersonFill className={styles.icon} />

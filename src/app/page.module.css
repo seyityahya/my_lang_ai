@@ -9,14 +9,14 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #410fa3;
+  background-color: var(--deep-blue);
   gap: 20px;
   animation: fadeOutContent 0.5s forwards;
   animation-delay: 2s;
 }
 
 .splash > h1 {
-  color: #fff;
+  color: var(--white);
 }
 
 .content {
