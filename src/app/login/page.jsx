@@ -3,6 +3,7 @@ import React from "react";
 import styles from "./login.module.css";
 import loginImage from "../../../public/login-screen.png";
 import Button from "@/components/button/Button";
+import Link from "next/link";
 
 const Login = () => {
   return (
@@ -12,17 +13,19 @@ const Login = () => {
         <h5>For free, join now and start learning</h5>
       </div>
       <div className={styles.input}>
-        <div className={styles.email}>
+        <div className={styles.inputBox}>
           <p>Email Address</p>
           <input type="email" placeholder="email address" />
         </div>
-        <div className={styles.password}>
+        <div className={styles.inputBox}>
           <p>Password</p>
           <input type="password" placeholder="password" />
         </div>
-        <button>Forgot Password</button>
+        <Link className={styles.link} href="#">
+          Forgot Password
+        </Link>
       </div>
-      <Button />
+      <Button text="Login" />
     </div>
   );
 };
