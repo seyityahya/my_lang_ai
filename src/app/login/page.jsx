@@ -26,6 +26,12 @@ const Login = () => {
         </Link>
       </div>
       <Button text="Login" />
+      <div className={styles.down}>
+        <p>Not you member?</p>
+        <Link className={styles.singupButton} href="/register">
+          Singup
+        </Link>
+      </div>
     </div>
   );
 };

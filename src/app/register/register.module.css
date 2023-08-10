@@ -1,0 +1,76 @@
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.container > .up {
+  width: 263px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.up > h5 {
+  color: var(--white);
+  font-size: 24px;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.inputBox {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.inputBox > p {
+  color: var(--gray-light);
+  font-size: 12px;
+}
+
+.inputBox > input {
+  width: 327px;
+  height: 56px;
+  border-radius: 16px;
+  background-color: var(--dark-light);
+  border: 0;
+  padding: 20px;
+  font-size: 14px;
+  color: var(--white);
+  opacity: 0.6;
+}
+
+.link {
+  color: var(--white);
+  font-size: 12px;
+  opacity: 0.4;
+}
+
+.down {
+  margin-top: 20px;
+  display: flex;
+  gap: 5px;
+  font-size: 12px;
+}
+
+.down > p {
+  color: var(--gray-dark);
+}
+
+.down > .singupButton {
+  color: var(--blue);
+}
